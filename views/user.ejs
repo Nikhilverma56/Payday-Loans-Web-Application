@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info</title>
+</head>
+<body>
+
+<h2>Payday Loan Application Form</h2>
+
+<form action="/userInfo/user" method="POST">
+
+    <label>Username</label>
+    <input type="text" name="user" placeholder="Enter username" required><br><br>
+
+    <label>Email</label>
+    <input type="email" name="email" placeholder="Enter email" required><br><br>
+
+    <label>Phone Number</label>
+    <input type="tel" name="phone" placeholder="Enter phone number" required><br><br>
+
+    <label>Birth Date</label>
+    <input type="date" name="dob" required><br><br>
+
+    <label>Employment Status</label>
+    <select name="employment">
+        <option value="">Select</option>
+        <option>Employed</option>
+        <option>Self-employed</option>
+        <option>Student</option>
+        <option>Unemployed</option>
+    </select><br><br>
+
+    <label>Monthly Income</label>
+    <input type="text" name="income" placeholder="Enter income"><br><br>
+
+    <label>Loan Amount</label>
+    <input type="text" name="loan" placeholder="Enter loan amount"><br><br>
+
+    <label>Repayment Time</label>
+    <select name="repayment">
+        <option>Select</option>
+        <option>Next Salary</option>
+        <option>1 Month</option>
+        <option>2-3 Months</option>
+    </select><br><br>
+
+    <label>Do you have a bank account?</label><br>
+    <input type="radio" name="bank" value="yes"> Yes
+    <input type="radio" name="bank" value="no"> No<br><br>
+
+    <input type="text" placeholder="enter your bank name" name ="bankname">
+
+    <button type="submit">Apply Now</button>
+
+</form>
+
+</body>
+</html>
