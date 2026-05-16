@@ -96,7 +96,7 @@ npm install
 
 ![Home Page](https://github.com/Nikhilverma56/Payday-Loans-Web-Application/blob/32ef703f1445ed3ef40fee429d18e1139dcb9e9e/Screenshot%202026-05-16%20140720.png)
 
-![Home Page]()
+![Home Page](https://github.com/Nikhilverma56/Payday-Loans-Web-Application/blob/96247fc085853c4ca3d7dc090a07717eb5d67756/Screenshot%202026-05-16%20140737.png)
 
 # Future Improvements
 
